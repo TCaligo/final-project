@@ -1,0 +1,79 @@
+/*
+    Student Name: Bee Campbell
+    File Name: styles.css
+    Date: 05/30/2026
+*/
+
+/* CSS Reset */
+body, header, nav, main, footer, h1, div, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    width: 100%;
+}
+
+/* Style rule for header */
+header {
+    font-size: 26px;
+    font-family: "Barlow Condensed", sans-serif;
+    background-color: #db0000;
+    height: 66px;
+    width: 100%;
+    padding: 16px 24px;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+    float: left;
+}
+
+.header-logo-main {
+    background-color: #db0000;
+    position: relative;
+}
+
+/* Style rules for nav */
+.navbar {
+    margin-block: 0;
+    margin-inline: 0;
+    margin: 16px 24px;
+    display: block;
+    float: right;
+}
+
+header a {
+    color: #ffffff;
+    font-size: 26px;
+    font-weight: 500;
+    text-decoration: none;
+    position: relative;
+    margin: 30px;
+}
+
+/* Style rule for main */
+main {
+    display: block;
+    margin: 0 16px;
+}
+
+/* Style rule for img */
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Style rule for footer */
+footer {
+    position: fixed;
+    bottom: 0px;
+    float: right;
+}
+
+/* Style rule for ? id */
+#welcome {
+    font-size: 20px;
+}
