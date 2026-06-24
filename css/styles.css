@@ -19,39 +19,35 @@ body {
 header {
     font-size: 26px;
     font-family: "Barlow Condensed", sans-serif;
-    background-color: #db0000;
-    height: 66px;
+    background-color: #5d9732;
+    height: 90px;
     width: 100%;
-    padding: 16px 24px;
+    text-align: center;
 }
 
 header img {
-    max-width: 100%;
-    height: auto;
+    height: 48px;
+    width: 138px;
     float: left;
-}
-
-.header-logo-main {
-    background-color: #db0000;
-    position: relative;
-}
-
-/* Style rules for nav */
-.navbar {
-    margin-block: 0;
-    margin-inline: 0;
-    margin: 16px 24px;
+    background-color: #5d9732;
     display: block;
-    float: right;
+    margin-top: -20px;
 }
 
 header a {
     color: #ffffff;
-    font-size: 26px;
-    font-weight: 500;
+    font-size: 20px;
+    font-weight: 600;
     text-decoration: none;
-    position: relative;
-    margin: 30px;
+    margin: 45px 20px;
+    display: block;
+    float: left;
+}
+
+#header-content {
+    display: block;
+    margin: auto;
+    width: 50%;
 }
 
 /* Style rule for main */
