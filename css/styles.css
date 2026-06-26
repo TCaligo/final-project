@@ -1,5 +1,5 @@
 /*
-    Student Name: Bee Campbell
+    Students: Bee Campbell, Diego Mondéjar, Efe Kaya
     File Name: styles.css
     Date: 05/30/2026
 */
@@ -67,9 +67,4 @@ footer {
     position: fixed;
     bottom: 0px;
     float: right;
-}
-
-/* Style rule for ? id */
-#welcome {
-    font-size: 20px;
 }
